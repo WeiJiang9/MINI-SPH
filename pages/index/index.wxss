@@ -1,0 +1,21 @@
+/* view{
+  color: var(--themeColor);
+} */
+/* 轮播图 */
+.index-swiper swiper{
+  width: 750rpx;
+  height: 340rpx;
+}
+.swiper-image{
+  width: 100%;
+}
+/* 导航分类 */
+.index-cate{
+  margin-top: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.cate-image{
+  width: 150rpx;
+  height: 150rpx;
+}

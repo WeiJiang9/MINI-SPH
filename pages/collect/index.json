@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "TabBar": "../../commponents/TabBar/TabBar"
+  },
+  "navigationBarTitleText": "收藏列表"
+}

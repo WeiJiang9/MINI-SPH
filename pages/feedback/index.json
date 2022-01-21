@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "TabBar": "../../commponents/TabBar/TabBar",
+    "UpImg": "../../commponents/UpImg/UpImg"
+  },
+  "navigationBarTitleText": "意见反馈"
+}

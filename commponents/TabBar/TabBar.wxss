@@ -1,0 +1,19 @@
+/* commponents/TabBar/TabBar.wxss */.tab-bar {
+  display: flex;
+}
+.tab-bar{
+  background-color: #fff;
+}
+.bar-item {
+  flex: 1;
+  text-align: center;
+  border-bottom:2px solid #ddd;
+  display: flex;
+  padding: 25rpx 0;
+  justify-content: center;
+  align-items: center;
+}
+.active{
+  color: var(--themeColor);
+  border-bottom-color: currentColor;
+}

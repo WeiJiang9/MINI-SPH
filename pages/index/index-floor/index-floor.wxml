@@ -1,0 +1,20 @@
+<view class="index-floor">
+  <block wx:for="{{floorList}}" wx:for-item="item1" wx:key="floor_title.name">
+    <view class="floor-group">
+      <!-- 标题 -->
+      <view class="floor-title">
+        <image src="{{item1.floor_title.image_src}}" mode="widthFix">
+        </image>
+      </view>
+      <!-- 内容 -->
+      <view class="floor-list">
+        <block wx:for="{{item1.product_list}}" wx:for-item="item2" wx:for-index="index2" wx:key="image_src">
+          <navigator class="floor-item" url="{{item2.navigator_url}}">
+            <image src="{{item2.image_src}}" mode="{{index2 === 0 ? 'widthFix' : 'scaleToFill'}}">
+            </image>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </block>
+</view>

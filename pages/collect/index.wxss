@@ -1,0 +1,53 @@
+page {
+  background-color: #eee;
+}
+
+.collect-title {
+  display: flex;
+  padding: 20rpx;
+  margin-bottom: 4rpx;
+}
+
+.collect-tips {
+  border: 1px solid #ddd;
+  margin-right: 20rpx;
+  padding: 10rpx;
+  background-color: #fff;
+}
+
+.collect-tips:first-child {
+  border-color: var(--themeColor);
+  color: var(--themeColor);
+}
+
+.collect-content {
+  display: flex;
+  padding: 0 10rpx;
+  background-color: #fff;
+  margin-bottom: 4rpx;
+}
+
+.content-img image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 50rpx;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.content-price {
+  color: var(--themeColor);
+  font-weight: 600;
+  font-size: 30rpx;
+}

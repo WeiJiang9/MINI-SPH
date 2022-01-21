@@ -1,0 +1,16 @@
+.up-img-wrap{
+  width: 90rpx;
+  height: 90rpx;
+  display: flex;
+  position: relative;
+  margin: 0 10rpx;
+}
+.up-img-wrap image{
+  width: 100%;
+  height: 100%;
+}
+.up-img-wrap icon{
+  position: absolute;
+  right: -20rpx;
+  top: -20rpx;
+}

@@ -1,0 +1,7 @@
+<!-- 顶部导航栏 -->
+<TabBar tabs="{{tabs}}" currentIndex="{{currentIndex}}" bind:barItemClick="barItemClick"/>
+<view>
+  <block wx:for="{{orders[currentIndex]}}">
+    <view class="order-item">{{item}}</view>
+  </block>
+</view>

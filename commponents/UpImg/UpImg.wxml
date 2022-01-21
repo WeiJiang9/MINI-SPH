@@ -1,0 +1,4 @@
+<view class="up-img-wrap">
+  <image src="{{src}}"></image>
+  <icon type="clear" size="20" color="red" bind:tap="handleRemoveImg"></icon>
+</view>

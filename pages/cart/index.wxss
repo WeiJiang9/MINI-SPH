@@ -1,0 +1,141 @@
+page{
+  padding-bottom: 80rpx;
+}
+.address-btn {
+  padding: 20rpx;
+}
+
+.address-detail {
+  padding: 10rpx;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-title {
+  padding: 20rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: var(--themeColor);
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+}
+
+.cart-item {
+  display: flex;
+  padding: 0 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-chk-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-img-wrap {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  padding: 10rpx 0;
+}
+
+.cart-img {
+  width: 80%;
+}
+
+.cart-info-wrap {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.goods-name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #666;
+}
+
+.goods-price-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-price {
+  color: var(--themeColor);
+  font-weight: 600;
+  font-size: 30rpx;
+}
+
+.cart-num-tool {
+  display: flex;
+}
+
+.goods-num {
+  margin: 0 20rpx;
+}
+
+.num-edit {
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  border: 1px solid #bbb;
+}
+
+.footer-tool {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80rpx;
+  padding: 0 10rpx;
+  display: flex;
+  border-top: 1px solid #ccc;
+  background-color: #eee;
+  font-size: 26rpx;
+}
+
+.footer-tool>view {
+  flex: 4;
+}
+
+.all-chk-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.total-price-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 50rpx;
+}
+.total-price{
+  display: flex;
+}
+.price {
+  margin-left: 10rpx;
+  color: var(--themeColor);
+  font-weight: 600;
+  font-size: 30rpx;
+}
+.a{
+  font-size: 20rpx;
+}
+.order-pay-wrap {
+  flex: 3 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--themeColor);
+  color: #ffffff;
+  font-size: 30rpx;
+}

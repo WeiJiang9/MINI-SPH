@@ -1,0 +1,13 @@
+<view class="cates">
+  <!-- 搜索框 -->
+  <SearchInput />
+
+  <!-- 内容区域 -->
+  <view class="cates-container">
+    <!-- 左侧菜单区域 -->
+    <left-menu class="left-menu" leftMenuList="{{leftMenuList}}" bind:handleItemTap="handleItemTap"></left-menu>
+    <!-- 右侧内容区域 -->
+    <right-content class="right-content" rightContentList="{{rightContentList}}" scrollTop="{{scrollTop}}">
+    </right-content>
+  </view>
+</view>

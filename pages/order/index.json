@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "TabBar": "../../commponents/TabBar/TabBar"
+  },
+  "navigationBarTitleText": "我的订单"
+}

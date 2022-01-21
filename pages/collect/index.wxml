@@ -1,0 +1,19 @@
+<TabBar tabs="{{tabs}}" />
+<view class="collect-main">
+  <view class="collect-title">
+    <view class="collect-tips">全部</view>
+    <view class="collect-tips">正在热卖</view>
+    <view class="collect-tips">即将上线</view>
+  </view>
+  <block wx:for="{{collects}}" wx:key="goods_id">
+    <navigator class="collect-content" url="/pages/goods_detail/index?goods_id={{item.goods_id}}">
+      <view class="content-img">
+        <image src="{{item.pics[0].pics_mid || 'https://ww1.sinaimg.cn/large/007rAy9hgy1g24by9t530j30i20i2glm.jpg'}} "></image>
+      </view>
+      <view class="content-info">
+        <view class="content-title">{{item.goods_name}}</view>
+        <view class="content-price">￥{{item.goods_price}}</view>
+      </view>
+    </navigator>
+  </block>
+</view>

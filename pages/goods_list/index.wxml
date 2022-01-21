@@ -1,0 +1,10 @@
+<view>
+  <!-- 搜索框开始 -->
+  <SearchInput />
+  <!-- 搜索框结束 -->
+  <!-- 顶部导航栏 -->
+  <TabBar tabs="{{tabs}}"/>
+
+    <!-- 内容区域 -->
+    <goods-content goodsList="{{goodsList}}"></goods-content>
+</view>

@@ -1,0 +1,34 @@
+<view class="pyg-index">
+
+  <!-- 搜索框开始 -->
+  <SearchInput />
+  <!-- 搜索框结束 -->
+
+  <!-- 轮播图开始 -->
+  <view class="index-swiper">
+    <swiper autoplay indicator-dots circular>
+      <block wx:for="{{swiperList}}" wx:key="goods_id">
+        <swiper-item>
+          <navigator url="{{item.navigator_url}}">
+            <image src="{{item.image_src}}" class="swiper-image" mode="widthFix">
+            </image>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- 轮播图结束 -->
+
+  <!-- 导航分类开始 -->
+  <view class="index-cate">
+    <block wx:for="{{cateList}}" wx:key="name">
+      <navigator url="/pages/category/index" open-type="switchTab">
+        <image src="{{item.image_src}}" class="cate-image" mode="widthFix"></image>
+      </navigator>
+    </block>
+  </view>
+  <!-- 导航分类结束 -->
+  <!-- 楼层区域开始 -->
+  <index-floor floorList="{{floorList}}"></index-floor>
+  <!-- 楼层区域结束 -->
+</view>

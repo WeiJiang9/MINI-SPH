@@ -1,0 +1,15 @@
+<scroll-view scroll-top="{{scrollTop}}" scroll-y class="right-content">
+  <block wx:for="{{rightContentList}}" wx:for-item="item1" wx:key="cat_id">
+    <view class="goods-group">
+      <view class="goods-title">/<text class="title">{{item1.cat_name}}</text>/</view>
+      <view class="goods-list">
+        <block wx:for="{{item1.children}}" wx:for-item="item2" wx:key="cat_id">
+          <navigator class="goods-item" url="/pages/goods_list/index?cid={{item2.cat_id}}">
+            <image class="goods-image" src="{{item2.cat_icon}}" mode="widthFix"></image>
+            <text>{{item2.cat_name}}</text>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </block>
+</scroll-view>

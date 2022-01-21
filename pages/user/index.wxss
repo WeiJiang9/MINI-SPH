@@ -1,0 +1,158 @@
+page {
+  background-color: #eee;
+}
+
+.user-info-wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position: relative;
+}
+
+.user-img-wrap {
+  position: relative;
+}
+
+.user-bg {
+  height: 50vh;
+  width: 100%;
+  /* 毛玻璃效果 高斯模糊*/
+  filter: blur(20rpx);
+}
+
+.user-info {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.user-icon {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+
+.user-name {
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.user-btn {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #666;
+  border-radius: 10rpx;
+  padding: 30rpx 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.user-content {
+  position: relative;
+}
+
+.user-main {
+  width: 90%;
+  position: absolute;
+  top: -40rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 100rpx;
+  color: #666;
+}
+
+.history-wrap {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.his-info {
+  flex: 1;
+  padding: 10rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.his-num {
+  color: var(--themeColor);
+  font-weight: 600;
+  margin-bottom: 5rpx;
+  font-size: 32rpx;
+}
+
+.his-name {
+  font-size: 26rpx;
+}
+
+.orders-wrap {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+
+.orders-title {
+  padding: 20rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.orders-content {
+  padding: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orders-content navigator {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+}
+
+.iconfont {
+  margin-bottom: 5rpx;
+  color: var(--themeColor);
+  font-size: 44rpx;
+}
+
+.address {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+.app-info-wrap {
+  margin-top: 20rpx;
+}
+
+.app-info-item {
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+.app-info-item:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-info-item:nth-child(1),
+.app-info-item:nth-child(2) {
+  margin-bottom: 1px;
+}
+.recommend-wrap{
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}

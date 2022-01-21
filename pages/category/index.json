@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "SearchInput": "../../commponents/SearchInput/SearchInput",
+    "left-menu": "./children-comps/left-menu/left-menu",
+    "right-content": "./children-comps/right-content/right-content"
+  },
+  "navigationBarTitleText": "商品分类"
+}
